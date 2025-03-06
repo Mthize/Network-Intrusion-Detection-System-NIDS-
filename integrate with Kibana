@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+
+# Plot traffic volume over time
+data = pd.read_csv('network_traffic.csv')
+data['timestamp'] = pd.to_datetime(data['timestamp'])
+data.set_index('timestamp', inplace=True)
+data['length'].resample('1T').sum().plot()
+plt.title('Network Traffic Over Time')
+plt.show()
