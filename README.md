@@ -97,7 +97,7 @@ Here's a detailed text-based mock-up of both dashboards for you to visualize or 
 
 ---
 
-### **Design Tips for Visual Appeal**  
+### **Visual Appeal**  
 **Color Coding:**  
 - **Suricata:** Red (critical alerts), Orange (high), Yellow (medium), Green (low).  
 - **ML:** Blue (metrics), Purple (drift), Green (stable), Red (issues).  
@@ -116,7 +116,7 @@ Here's a detailed text-based mock-up of both dashboards for you to visualize or 
 
 ---
 
-### **Example Network Traffic Panel (Suricata)**  
+### **Network Traffic Panel (Suricata)**  
 **[Network Traffic Over Time]**  
 ───────────────────────────────────────────────  
  12:00 │▓▓▓▓▓▓▓▓▓▓░░  
